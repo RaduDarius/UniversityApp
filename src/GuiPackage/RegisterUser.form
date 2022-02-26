@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GuiPackage.RegisterUser">
+  <grid id="27dc6" binding="myPanel" layout-manager="GridLayoutManager" row-count="18" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="50" right="10"/>
+    <constraints>
+      <xy x="20" y="13" width="749" height="651"/>
+    </constraints>
+    <properties>
+      <background color="-15197156"/>
+      <foreground color="-6241236"/>
+    </properties>
+    <border type="none">
+      <font/>
+    </border>
+    <children>
+      <component id="49d36" class="javax.swing.JLabel" binding="lblcreareUtilizator">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Droid Sans" size="24" style="1"/>
+          <foreground color="-6241236"/>
+          <text value="Creare utilizator"/>
+        </properties>
+      </component>
+      <component id="4e869" class="javax.swing.JLabel" binding="labelNume">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-6241236"/>
+          <text value="Nume"/>
+        </properties>
+      </component>
+      <component id="5d7aa" class="javax.swing.JTextField" binding="textNume">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14670812"/>
+          <caretColor color="-13354181"/>
+          <font name="Consolas" size="16" style="1"/>
+          <foreground color="-986896"/>
+          <selectedTextColor color="-13354181"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="1d00b" class="javax.swing.JLabel" binding="labelPrenume">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-6241236"/>
+          <text value="Prenume"/>
+        </properties>
+      </component>
+      <component id="f9887" class="javax.swing.JTextField" binding="textPrenume">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14670812"/>
+          <font name="Consolas" size="16" style="1"/>
+          <foreground color="-986896"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="5c707" class="javax.swing.JLabel" binding="labelCNP">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-6241236"/>
+          <text value="CNP"/>
+        </properties>
+      </component>
+      <component id="fea32" class="javax.swing.JTextField" binding="textCNP">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14670812"/>
+          <font name="Consolas" size="16" style="1"/>
+          <foreground color="-986896"/>
+          <selectedTextColor color="-14146524"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="1dd09" class="javax.swing.JLabel" binding="labelAdresa">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-6241236"/>
+          <text value="Adresa"/>
+        </properties>
+      </component>
+      <component id="aebb0" class="javax.swing.JTextField" binding="textAdresa">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14670812"/>
+          <font name="Consolas" size="16" style="1"/>
+          <foreground color="-986896"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="1f61" class="javax.swing.JLabel" binding="labelEmail">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-6241236"/>
+          <text value="E-mail"/>
+        </properties>
+      </component>
+      <component id="957f0" class="javax.swing.JTextField" binding="textEmail">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14670812"/>
+          <font name="Consolas" size="16" style="1"/>
+          <foreground color="-986896"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d8f42" class="javax.swing.JLabel" binding="labelIBAN">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-6241236"/>
+          <text value="IBAN"/>
+        </properties>
+      </component>
+      <component id="67af7" class="javax.swing.JTextField" binding="textIBAN">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14670812"/>
+          <font name="Consolas" size="16" style="1"/>
+          <foreground color="-986896"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="98db7" class="javax.swing.JLabel" binding="labelNrContract">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-6241236"/>
+          <text value="Nr. contract"/>
+        </properties>
+      </component>
+      <component id="7b5ad" class="javax.swing.JTextField" binding="textNrContract">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14670812"/>
+          <font name="Consolas" size="16" style="1"/>
+          <foreground color="-986896"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="bd5e8" class="javax.swing.JLabel" binding="labelTipUtilizator">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-6241236"/>
+          <text value="Tip utilizator"/>
+        </properties>
+      </component>
+      <component id="ac05f" class="javax.swing.JComboBox" binding="comboTipUtilizator">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14670812"/>
+          <focusable value="false"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-6241236"/>
+          <model/>
+        </properties>
+      </component>
+      <component id="ab2c6" class="javax.swing.JLabel" binding="labelUsername">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6241236"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-6241236"/>
+          <text value="Username"/>
+        </properties>
+      </component>
+      <component id="bb26e" class="javax.swing.JTextField" binding="textUsername">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <background color="-14670812"/>
+          <caretColor color="-15585518"/>
+          <disabledTextColor color="-14670812"/>
+          <font name="Consolas" size="16" style="1"/>
+          <foreground color="-986896"/>
+          <margin top="2" left="6" bottom="2" right="6"/>
+          <selectedTextColor color="-14670812"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b769a" class="javax.swing.JLabel" binding="labelParola">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <alignmentY value="0.5"/>
+          <autoscrolls value="true"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-6241236"/>
+          <text value="Parola"/>
+        </properties>
+      </component>
+      <component id="789c3" class="javax.swing.JTextField" binding="textTelefon">
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14670812"/>
+          <font name="Consolas" size="16" style="1"/>
+          <foreground color="-986896"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="69837" class="javax.swing.JLabel" binding="labelTelefon">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-6241236"/>
+          <text value="Numar de telefon"/>
+        </properties>
+      </component>
+      <component id="3dcaa" class="javax.swing.JPasswordField" binding="textParola">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14670812"/>
+          <font name="Consolas" size="16" style="1"/>
+          <foreground color="-4472128"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="9e3be" class="javax.swing.JButton" binding="cancelButton">
+        <constraints>
+          <grid row="17" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6241236"/>
+          <focusable value="false"/>
+          <font name="Times New Roman" size="20" style="1"/>
+          <foreground color="-16251389"/>
+          <text value="Back"/>
+        </properties>
+      </component>
+      <component id="829f6" class="javax.swing.JButton" binding="submitButton" default-binding="true">
+        <constraints>
+          <grid row="17" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6241236"/>
+          <focusable value="false"/>
+          <font name="Times New Roman" size="20" style="1"/>
+          <foreground color="-16251389"/>
+          <text value="Submit"/>
+        </properties>
+      </component>
+      <component id="7dbb8" class="javax.swing.JComboBox" binding="comboDepartament">
+        <constraints>
+          <grid row="12" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14670812"/>
+          <focusable value="false"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-6241236"/>
+          <model/>
+        </properties>
+      </component>
+      <component id="54127" class="javax.swing.JLabel" binding="labelDepartament">
+        <constraints>
+          <grid row="11" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-6241236"/>
+          <text value="Departament"/>
+        </properties>
+      </component>
+      <component id="e2a18" class="javax.swing.JLabel" binding="labelNrMaxOre">
+        <constraints>
+          <grid row="13" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-6241236"/>
+          <text value="Numar maxim ore"/>
+        </properties>
+      </component>
+      <component id="36e43" class="javax.swing.JLabel" binding="labelNumarOre">
+        <constraints>
+          <grid row="15" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-6241236"/>
+          <text value="Numar ore"/>
+        </properties>
+      </component>
+      <component id="ff1c0" class="javax.swing.JLabel" binding="labelAnStudiu">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-6241236"/>
+          <text value="An studiu"/>
+        </properties>
+      </component>
+      <component id="62794" class="javax.swing.JLabel" binding="labelNrMinOre">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-6241236"/>
+          <text value="Numar minim ore"/>
+        </properties>
+      </component>
+      <component id="d6e19" class="javax.swing.JTextField" binding="textAnStudiu">
+        <constraints>
+          <grid row="16" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14670812"/>
+          <font name="Consolas" size="16" style="1"/>
+          <foreground color="-986896"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="cc769" class="javax.swing.JTextField" binding="textNrMinOre">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14670812"/>
+          <font name="Consolas" size="16" style="1"/>
+          <foreground color="-986896"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c3311" class="javax.swing.JTextField" binding="textNumarOre">
+        <constraints>
+          <grid row="16" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14670812"/>
+          <font name="Consolas" size="16" style="1"/>
+          <foreground color="-986896"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="32812" class="javax.swing.JTextField" binding="textNrMaxOre">
+        <constraints>
+          <grid row="14" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14670812"/>
+          <font name="Consolas" size="16" style="1"/>
+          <foreground color="-986896"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

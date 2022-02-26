@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GuiPackage.AdaugareActivitati">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="15" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="741" height="576"/>
+    </constraints>
+    <properties>
+      <background color="-15197156"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="a0a0e" class="javax.swing.JLabel" binding="lblAdaugareUtilizator">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Droid Sans" size="24" style="1"/>
+          <foreground color="-6241236"/>
+          <text value="Adaugare activitati"/>
+        </properties>
+      </component>
+      <vspacer id="a7273">
+        <constraints>
+          <grid row="1" column="5" row-span="9" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="e2193" class="javax.swing.JTextField" binding="txtDenumire">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="2" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <background color="-14670812"/>
+          <caretColor color="-15585518"/>
+          <disabledTextColor color="-14670812"/>
+          <font name="Consolas" size="16" style="0"/>
+          <foreground color="-986896"/>
+          <margin top="2" left="6" bottom="2" right="6"/>
+          <selectedTextColor color="-14670812"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d126e" class="javax.swing.JLabel" binding="lblActivitate">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="2" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6241236"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-6241236"/>
+          <text value="Tip activitate"/>
+        </properties>
+      </component>
+      <component id="77219" class="javax.swing.JLabel" binding="lblDataIncepere">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="2" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6241236"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-6241236"/>
+          <text value="Data incepere"/>
+        </properties>
+      </component>
+      <component id="3080f" class="javax.swing.JLabel" binding="lblDataFinalizare">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="2" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6241236"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-6241236"/>
+          <text value="Data finalizare"/>
+        </properties>
+      </component>
+      <component id="9f7c" class="javax.swing.JLabel" binding="lblNrMax">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="2" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6241236"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-6241236"/>
+          <text value="Numar maxim participanti"/>
+        </properties>
+      </component>
+      <component id="2ffe6" class="javax.swing.JTextField" binding="txtNrMax">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="2" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <background color="-14670812"/>
+          <caretColor color="-15585518"/>
+          <disabledTextColor color="-14670812"/>
+          <font name="Consolas" size="16" style="0"/>
+          <foreground color="-986896"/>
+          <margin top="2" left="6" bottom="2" right="6"/>
+          <selectedTextColor color="-14670812"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="1b6de" class="javax.swing.JButton" binding="btnBack">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6241236"/>
+          <focusable value="false"/>
+          <font name="Times New Roman" size="20" style="1"/>
+          <foreground color="-16251389"/>
+          <text value="Back"/>
+        </properties>
+      </component>
+      <component id="132fb" class="javax.swing.JButton" binding="btnSubmit">
+        <constraints>
+          <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6241236"/>
+          <focusable value="false"/>
+          <font name="Times New Roman" size="20" style="1"/>
+          <foreground color="-16251389"/>
+          <text value="Submit"/>
+        </properties>
+      </component>
+      <component id="ff407" class="javax.swing.JComboBox" binding="comboTip">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="4" use-parent-layout="false">
+            <preferred-size width="150" height="5"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15197156"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-6241236"/>
+          <model/>
+        </properties>
+      </component>
+      <grid id="6e69" binding="dataInceperePanel" layout-manager="GridLayoutManager" row-count="2" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15197156"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="4b3ed" class="javax.swing.JSpinner" binding="sprDataIncepereLuna">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14670812"/>
+              <foreground color="-986896"/>
+            </properties>
+          </component>
+          <component id="a14e7" class="javax.swing.JSpinner" binding="sprDataIncepereAn">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14670812"/>
+              <foreground color="-986896"/>
+            </properties>
+          </component>
+          <component id="868aa" class="javax.swing.JSpinner" binding="sprDataIncepereZi">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14670812"/>
+              <enabled value="true"/>
+              <foreground color="-986896"/>
+            </properties>
+          </component>
+          <component id="bf379" class="javax.swing.JSpinner" binding="sprIncepereOra">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="bbb44" class="javax.swing.JSpinner" binding="sprIncepereMinute">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="714f6" class="javax.swing.JLabel" binding="lblZiI">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6241236"/>
+              <font name="Times New Roman" size="18" style="1"/>
+              <foreground color="-6241236"/>
+              <text value="Zi"/>
+            </properties>
+          </component>
+          <component id="48b0d" class="javax.swing.JLabel" binding="lblLunaI">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6241236"/>
+              <font name="Times New Roman" size="18" style="1"/>
+              <foreground color="-6241236"/>
+              <text value="Luna"/>
+            </properties>
+          </component>
+          <component id="b2da7" class="javax.swing.JLabel" binding="lblAnI">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6241236"/>
+              <font name="Times New Roman" size="18" style="1"/>
+              <foreground color="-6241236"/>
+              <text value="An"/>
+            </properties>
+          </component>
+          <component id="ef44f" class="javax.swing.JLabel" binding="lblOreI">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6241236"/>
+              <font name="Times New Roman" size="18" style="1"/>
+              <foreground color="-6241236"/>
+              <text value="Ore"/>
+            </properties>
+          </component>
+          <component id="85349" class="javax.swing.JLabel" binding="lblMinuteI">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6241236"/>
+              <font name="Times New Roman" size="18" style="1"/>
+              <foreground color="-6241236"/>
+              <text value="Minute"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="b4e9d" binding="dataTerminarePanel" layout-manager="GridLayoutManager" row-count="2" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15197156"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f6f6c" class="javax.swing.JSpinner" binding="sprDataTerminareLuna">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14670812"/>
+              <foreground color="-986896"/>
+            </properties>
+          </component>
+          <component id="1a23d" class="javax.swing.JSpinner" binding="sprDataTerminareAn">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14670812"/>
+              <foreground color="-986896"/>
+            </properties>
+          </component>
+          <component id="b876b" class="javax.swing.JSpinner" binding="sprDataTerminareZi">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14670812"/>
+              <foreground color="-986896"/>
+            </properties>
+          </component>
+          <component id="ea960" class="javax.swing.JSpinner" binding="sprTerminareOra">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="66759" class="javax.swing.JSpinner" binding="sprTerminareMinute">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="1731f" class="javax.swing.JLabel" binding="lblZiT">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6241236"/>
+              <font name="Times New Roman" size="18" style="1"/>
+              <foreground color="-6241236"/>
+              <text value="Zi"/>
+            </properties>
+          </component>
+          <component id="a1656" class="javax.swing.JLabel" binding="lblLunaT">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6241236"/>
+              <font name="Times New Roman" size="18" style="1"/>
+              <foreground color="-6241236"/>
+              <text value="Luna"/>
+            </properties>
+          </component>
+          <component id="b8c6b" class="javax.swing.JLabel" binding="lblAnT">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6241236"/>
+              <font name="Times New Roman" size="18" style="1"/>
+              <foreground color="-6241236"/>
+              <text value="An"/>
+            </properties>
+          </component>
+          <component id="cbd2d" class="javax.swing.JLabel" binding="lblOreT">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6241236"/>
+              <font name="Times New Roman" size="18" style="1"/>
+              <foreground color="-6241236"/>
+              <text value="Ore"/>
+            </properties>
+          </component>
+          <component id="7b860" class="javax.swing.JLabel" binding="lblMinuteT">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6241236"/>
+              <font name="Times New Roman" size="18" style="1"/>
+              <foreground color="-6241236"/>
+              <text value="Minute"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="e4135" class="javax.swing.JLabel" binding="lblDenumire">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="2" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6241236"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-6241236"/>
+          <text value="Denumire"/>
+        </properties>
+      </component>
+      <component id="5e876" class="javax.swing.JLabel" binding="lblDurata">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="4" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6241236"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-6241236"/>
+          <text value="Durata Activitate"/>
+        </properties>
+      </component>
+      <component id="76870" class="javax.swing.JTextField" binding="txtDurata">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="4" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14670812"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-986896"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
